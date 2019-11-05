@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="jumbotron jumbotron-fluid">
+    
+        <h1 class="display-4 ml-2">sez-ai</h1>
+        <p class="lead ml-2">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    
+</div>
+<p>
+{% if request.user.is_authenticated %}
+giris yapilmis
+{% else %}
+giris yapilmamis
+{% endif %}
+</p>
+{% endblock body %}

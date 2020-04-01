@@ -1,0 +1,1 @@
+from blogai.settings.base import  *
